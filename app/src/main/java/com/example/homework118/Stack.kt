@@ -1,6 +1,7 @@
 package com.example.homework118
 
-class Stack<T>(private var stackList: MutableList<T> = mutableListOf()) {
+class Stack<T>() {
+    private var stackList: MutableList<T> = mutableListOf()
     fun push(item: T) {
         stackList.add(item)
     }
